@@ -63,6 +63,7 @@ public class PageWalker {
         return document.getElementsByClass("n-BlockListing_headerTitle").stream()
                 .map(element -> element.attr("href"))
                 .map(href -> "https://students.pl" +  href)
+                .filter(url -> Objects.equals("https://students.pl", url))
                 .collect(Collectors.toList());
     }
 }
