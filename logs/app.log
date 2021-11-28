@@ -1,0 +1,186 @@
+2021-11-28 14:58:43,977 INFO offers_analyzer.data_reciver.PageWalker [main] Start pages with offers lists2021-11-28T14:58:43.967914500
+2021-11-28 14:59:04,628 INFO offers_analyzer.data_reciver.PageWalker [main] Start pages with offers lists2021-11-28T14:59:04.610801200
+2021-11-28 14:59:21,791 INFO offers_analyzer.data_reciver.PageWalker [main] Start parsing pages with offers2021-11-28T14:59:21.790488700
+2021-11-28 14:59:35,704 INFO offers_analyzer.data_reciver.PageWalker [main] Start file writing2021-11-28T14:59:35.704563600
+2021-11-28 14:59:35,720 INFO offers_analyzer.data_reciver.PageWalker [main] File written2021-11-28T14:59:35.720561100
+2021-11-28 15:13:13,383 INFO offers_analyzer.data_reciver.PageWalker [main] Start pages with offers lists2021-11-28T15:13:13.373019500
+2021-11-28 15:13:25,963 INFO offers_analyzer.data_reciver.PageWalker [main] Start parsing pages with offers2021-11-28T15:13:25.962376700
+2021-11-28 15:13:33,073 INFO offers_analyzer.data_reciver.PageWalker [main] Start file writing2021-11-28T15:13:33.073507100
+2021-11-28 15:13:33,091 INFO offers_analyzer.data_reciver.PageWalker [main] File written2021-11-28T15:13:33.091502400
+2021-11-28 15:13:52,894 INFO offers_analyzer.data_reciver.PageWalker [main] Start pages with offers lists
+2021-11-28 15:14:05,320 INFO offers_analyzer.data_reciver.PageWalker [main] Start parsing pages with offers
+2021-11-28 15:14:12,034 INFO offers_analyzer.data_reciver.PageWalker [main] Start file writing
+2021-11-28 15:14:12,054 INFO offers_analyzer.data_reciver.PageWalker [main] File written
+2021-11-28 15:21:46,739 INFO Main [main] Start parsing
+2021-11-28 15:21:47,346 INFO offers_analyzer.data_reciver.PageWalker [main] Start pages with offers lists
+2021-11-28 15:22:11,822 INFO offers_analyzer.data_reciver.PageWalker [main] Start parsing pages with offers
+2021-11-28 15:22:18,561 INFO offers_analyzer.data_reciver.PageWalker [main] Start file writing
+2021-11-28 15:22:18,583 INFO offers_analyzer.data_reciver.PageWalker [main] File written
+2021-11-28 15:23:19,796 INFO Main [main] Start parsing
+2021-11-28 15:23:20,376 INFO offers_analyzer.data_reciver.PageWalker [main] Start parsing pages with offers lists
+2021-11-28 15:23:31,701 INFO offers_analyzer.data_reciver.PageWalker [main] Start parsing pages with offers
+2021-11-28 15:29:39,581 INFO offers_analyzer.data_reciver.PageWalker [main] Start file writing
+2021-11-28 15:29:39,646 INFO offers_analyzer.data_reciver.PageWalker [main] File written
+2021-11-28 16:25:15,156 ERROR o.O.CSVReader [main] Errow while parsing file
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `offers_analyzer.data_reciver.JobOffer` (no Creators, like default construct, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (FileReader); line: 2, column: 1]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1452) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1028) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1297) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:326) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:159) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.nextValue(MappingIterator.java:277) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:317) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:303) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at offers_analyzer.JobOfferReader.read(CSVReader.java:23) [classes/:?]
+	at Main.main(Main.java:20) [classes/:?]
+2021-11-28 16:27:22,545 ERROR o.O.CSVReader [main] Errow while parsing file
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `offers_analyzer.data_reciver.JobOffer` (no Creators, like default construct, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (FileReader); line: 2, column: 1]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1452) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1028) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1297) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:326) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:159) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.nextValue(MappingIterator.java:277) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:317) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:303) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at offers_analyzer.JobOfferReader.read(CSVReader.java:23) [classes/:?]
+	at Main.main(Main.java:20) [classes/:?]
+2021-11-28 16:30:17,773 ERROR o.O.CSVReader [main] Errow while parsing file
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `offers_analyzer.data_reciver.JobOffer` (no Creators, like default construct, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (FileReader); line: 2, column: 1]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1452) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1028) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1297) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:326) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:159) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.nextValue(MappingIterator.java:277) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:317) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:303) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at offers_analyzer.JobOfferReader.read(CSVReader.java:23) [classes/:?]
+	at Main.main(Main.java:20) [classes/:?]
+2021-11-28 16:32:31,203 ERROR o.O.CSVReader [main] Errow while parsing file
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `offers_analyzer.data_reciver.JobOffer` (no Creators, like default construct, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (FileReader); line: 2, column: 1]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1452) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1028) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1297) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:326) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:159) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.nextValue(MappingIterator.java:277) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:317) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:303) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at offers_analyzer.JobOfferReader.read(CSVReader.java:23) [classes/:?]
+	at Main.main(Main.java:20) [classes/:?]
+2021-11-28 17:02:09,584 INFO o.O.OffersAnalizer [main] Analize data started
+2021-11-28 17:02:09,601 INFO o.O.OffersAnalizer [main] Analize data end
+2021-11-28 17:02:09,602 INFO o.O.OffersAnalizer [main] Analize data end1
+2021-11-28 18:27:37,660 ERROR o.O.CSVReader [main] Errow while parsing file
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "url" (class offers_analyzer.utils.JobOffersAccessConfig), not marked as ignorable (0 known properties: ])
+ at [Source: (FileReader); line: 2, column: 98] (through reference chain: offers_analyzer.utils.JobOffersAccessConfig["url"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:823) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1153) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1589) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1567) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:294) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.nextValue(MappingIterator.java:277) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:317) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:303) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at offers_analyzer.JobOfferReader.read(CSVReader.java:21) [classes/:?]
+	at Main.main(Main.java:20) [classes/:?]
+2021-11-28 18:27:37,765 INFO o.O.OffersAnalizer [main] Analyze data started
+2021-11-28 18:29:16,240 ERROR o.O.CSVReader [main] Errow while parsing file
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "url" (class offers_analyzer.utils.JobOffersAccessConfig), not marked as ignorable (0 known properties: ])
+ at [Source: (FileReader); line: 2, column: 98] (through reference chain: offers_analyzer.utils.JobOffersAccessConfig["url"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:823) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1153) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1589) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1567) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:294) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.nextValue(MappingIterator.java:277) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:317) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:303) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at offers_analyzer.JobOfferReader.read(CSVReader.java:21) [classes/:?]
+	at Main.main(Main.java:20) [classes/:?]
+2021-11-28 18:29:16,297 INFO o.O.OffersAnalizer [main] Analyze data started
+2021-11-28 18:33:16,392 ERROR o.O.CSVReader [main] Errow while parsing file
+com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "url" (class offers_analyzer.utils.JobOffersAccessConfig), not marked as ignorable (0 known properties: ])
+ at [Source: (FileReader); line: 2, column: 98] (through reference chain: offers_analyzer.utils.JobOffersAccessConfig["url"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:823) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1153) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1589) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1567) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:294) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.nextValue(MappingIterator.java:277) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:317) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at com.fasterxml.jackson.databind.MappingIterator.readAll(MappingIterator.java:303) ~[jackson-databind-2.9.9.jar:2.9.9]
+	at offers_analyzer.JobOfferReader.read(CSVReader.java:21) [classes/:?]
+	at Main.main(Main.java:20) [classes/:?]
+2021-11-28 18:35:08,579 INFO o.O.OffersAnalizer [main] Analyze data started
+2021-11-28 18:35:16,441 INFO o.O.OffersAnalizer [main] Analyze data started
+2021-11-28 18:35:16,456 INFO o.O.OffersAnalizer [main] Analyze data end
+2021-11-28 18:37:11,643 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 18:37:20,722 INFO o.O.OffersAnalyzer [main] Analyze data end
+2021-11-28 18:38:30,042 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 18:39:47,167 INFO o.O.OffersAnalyzer [main] Analyze data end
+2021-11-28 18:41:40,605 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 18:44:25,489 INFO o.O.OffersAnalyzer [main] Analyze data end
+2021-11-28 18:44:36,918 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 18:44:40,230 INFO o.O.OffersAnalyzer [main] Analyze data end
+2021-11-28 18:49:02,339 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 18:49:02,352 INFO o.O.OffersAnalyzer [main] Analyze data end
+2021-11-28 18:50:56,754 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 18:50:56,773 INFO o.O.OffersAnalyzer [main] Analyze data end
+2021-11-28 18:52:10,018 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 18:52:10,056 INFO o.O.OffersAnalyzer [main] Analyze data end
+2021-11-28 18:56:42,100 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 18:57:54,669 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 19:00:18,734 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 19:00:18,801 INFO o.O.OffersAnalyzer [main] Analyze data end
+2021-11-28 19:06:06,260 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 19:07:33,871 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 19:07:33,927 INFO o.O.OffersAnalyzer [main] Analyze data end
+2021-11-28 19:07:52,983 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 19:10:22,832 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 19:10:31,931 INFO o.O.OffersAnalyzer [main] Analyze data end
+2021-11-28 19:18:27,385 INFO o.O.OffersAnalyzer [main] Analyze data started
+2021-11-28 19:18:27,450 INFO o.O.OffersAnalyzer [main] Analyze data end
+2021-11-28 21:49:17,741 INFO o.StatisticsProvider [main] Analyze data started
+2021-11-28 21:49:17,784 INFO o.StatisticsProvider [main] Analyze data end
+2021-11-28 21:49:54,898 INFO o.StatisticsProvider [main] Analyze data started
+2021-11-28 21:49:54,956 INFO o.StatisticsProvider [main] Analyze data end
+2021-11-28 22:09:33,498 INFO o.StatisticsProvider [main] Analyze data started
+2021-11-28 22:09:33,550 INFO o.StatisticsProvider [main] Analyze data end
+2021-11-28 22:20:39,121 ERROR o.JobOfferReader [main] Errow while parsing file
+java.io.FileNotFoundException: \data\Data_28-lis-21.csv (Nie można odnaleźć określonego pliku)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:75) ~[?:?]
+	at offers_analyzer.JobOfferReader.read(JobOfferReader.java:19) [classes/:?]
+	at offers_analyzer.ResultAnalyzer.analyze(ResultAnalyzer.java:28) [classes/:?]
+	at Main.main(Main.java:18) [classes/:?]
+2021-11-28 22:20:39,186 INFO o.StatisticsProvider [main] Analyze data started
+2021-11-28 22:21:40,856 ERROR o.JobOfferReader [main] Errow while parsing file
+java.io.FileNotFoundException: \data\Data_28-lis-21.csv (Nie można odnaleźć określonego pliku)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:75) ~[?:?]
+	at offers_analyzer.JobOfferReader.read(JobOfferReader.java:19) [classes/:?]
+	at offers_analyzer.ResultAnalyzer.analyze(ResultAnalyzer.java:28) [classes/:?]
+	at Main.main(Main.java:18) [classes/:?]
+2021-11-28 22:21:40,905 INFO o.StatisticsProvider [main] Analyze data started
+2021-11-28 22:22:25,471 INFO o.StatisticsProvider [main] Analyze data started
+2021-11-28 22:22:25,531 INFO o.StatisticsProvider [main] Analyze data end
