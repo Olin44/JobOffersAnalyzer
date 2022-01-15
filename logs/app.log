@@ -184,3 +184,124 @@ java.io.FileNotFoundException: \data\Data_28-lis-21.csv (Nie można odnaleźć o
 2021-11-28 22:21:40,905 INFO o.StatisticsProvider [main] Analyze data started
 2021-11-28 22:22:25,471 INFO o.StatisticsProvider [main] Analyze data started
 2021-11-28 22:22:25,531 INFO o.StatisticsProvider [main] Analyze data end
+2021-11-30 20:51:04,394 INFO o.d.StudentPlJobOffersParser [main] Start parsing
+2021-11-30 20:51:04,410 INFO o.d.PageWalker [main] Start parsing pages with offers lists
+2021-11-30 20:51:27,890 INFO o.d.PageWalker [main] Start parsing pages with offers
+2021-11-30 20:51:27,891 INFO o.d.StudentPlJobOffersParser [main] Start file writing
+2021-11-30 20:51:27,965 INFO o.d.StudentPlJobOffersParser [main] File written
+2021-11-30 20:51:28,033 INFO o.StatisticsProvider [main] Analyze data started
+2021-11-30 20:53:11,555 INFO o.d.StudentPlJobOffersParser [main] Start parsing
+2021-11-30 20:53:11,638 INFO o.d.PageWalker [main] Start parsing pages with offers lists
+2021-11-30 20:53:51,569 INFO o.d.PageWalker [main] Start parsing pages with offers
+2021-11-30 20:54:49,167 INFO o.d.StudentPlJobOffersParser [main] Start file writing
+2021-11-30 20:54:49,240 INFO o.d.StudentPlJobOffersParser [main] File written
+2021-11-30 20:54:58,286 INFO o.d.StudentPlJobOffersParser [main] Start parsing
+2021-11-30 20:54:58,307 INFO o.d.PageWalker [main] Start parsing pages with offers lists
+2021-11-30 20:55:09,894 INFO o.d.PageWalker [main] Start parsing pages with offers
+2021-11-30 20:55:09,895 INFO o.d.StudentPlJobOffersParser [main] Start file writing
+2021-11-30 20:55:09,940 INFO o.d.StudentPlJobOffersParser [main] File written
+2021-11-30 20:55:09,979 INFO o.StatisticsProvider [main] Analyze data started
+2021-11-30 20:55:27,505 INFO o.d.StudentPlJobOffersParser [main] Start parsing
+2021-11-30 20:55:27,522 INFO o.d.PageWalker [main] Start parsing pages with offers lists
+2021-11-30 20:55:46,156 INFO o.d.PageWalker [main] Start parsing pages with offers
+2021-11-30 20:56:18,948 INFO o.d.StudentPlJobOffersParser [main] Start file writing
+2021-11-30 20:56:19,022 INFO o.d.StudentPlJobOffersParser [main] File written
+2021-11-30 20:56:27,964 INFO o.d.StudentPlJobOffersParser [main] Start parsing
+2021-11-30 20:56:27,998 INFO o.d.PageWalker [main] Start parsing pages with offers lists
+2021-11-30 20:56:44,750 INFO o.d.PageWalker [main] Start parsing pages with offers
+2021-11-30 21:02:55,307 INFO o.d.StudentPlJobOffersParser [main] Start file writing
+2021-11-30 21:04:47,909 INFO o.d.StudentPlJobOffersParser [main] File written
+2021-11-30 21:04:48,229 INFO o.StatisticsProvider [main] Analyze data started
+2021-11-30 21:04:51,120 INFO o.StatisticsProvider [main] Analyze data end
+2021-11-30 21:16:24,840 ERROR o.JobOfferReader [main] Errow while parsing file
+java.io.FileNotFoundException: Data_29-lis-21.csv (Nie można odnaleźć określonego pliku)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:75) ~[?:?]
+	at offers_analyzer.JobOfferReader.read(JobOfferReader.java:19) [classes/:?]
+	at offers_analyzer.NewOffer.find(NewOffer.java:28) [classes/:?]
+	at Main.main(Main.java:25) [classes/:?]
+2021-11-30 21:17:24,612 ERROR o.JobOfferReader [main] Errow while parsing file
+java.io.FileNotFoundException: Data_29-lis-21.csv (Nie można odnaleźć określonego pliku)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:75) ~[?:?]
+	at offers_analyzer.JobOfferReader.read(JobOfferReader.java:19) [classes/:?]
+	at offers_analyzer.NewOffer.find(NewOffer.java:28) [classes/:?]
+	at Main.main(Main.java:25) [classes/:?]
+2021-12-01 21:03:54,221 INFO o.d.StudentPlJobOffersParser [main] Start parsing
+2021-12-01 21:03:54,237 INFO o.d.PageWalker [main] Start parsing pages with offers lists
+2021-12-01 21:04:18,584 INFO o.d.PageWalker [main] Start parsing pages with offers
+2021-12-01 21:09:49,869 INFO o.d.StudentPlJobOffersParser [main] Start file writing
+2021-12-01 21:09:50,402 INFO o.d.StudentPlJobOffersParser [main] File written
+2021-12-01 21:09:50,737 INFO o.StatisticsProvider [main] Analyze data started
+2021-12-01 21:09:50,858 INFO o.StatisticsProvider [main] Analyze data end
+2021-12-02 02:33:43,895 INFO o.d.StudentPlJobOffersParser [main] Start parsing
+2021-12-02 02:33:43,900 INFO o.d.PageWalker [main] Start parsing pages with offers lists
+2021-12-02 02:34:08,250 INFO o.d.PageWalker [main] Start parsing pages with offers
+2021-12-03 17:19:51,543 INFO o.d.StudentPlJobOffersParser [main] Start parsing
+2021-12-03 17:19:51,567 INFO o.d.PageWalker [main] Start parsing pages with offers lists
+2021-12-03 17:20:17,161 INFO o.d.PageWalker [main] Start parsing pages with offers
+2021-12-03 17:25:59,569 INFO o.d.StudentPlJobOffersParser [main] Start file writing
+2021-12-03 17:26:00,742 INFO o.d.StudentPlJobOffersParser [main] File written
+2021-12-03 17:26:01,369 INFO o.StatisticsProvider [main] Analyze data started
+2021-12-03 17:26:01,418 INFO o.StatisticsProvider [main] Analyze data end
+2021-12-03 17:26:01,427 ERROR o.JobOfferReader [main] Errow while parsing file
+java.io.FileNotFoundException: Data_02-gru-21.csv (Nie można odnaleźć określonego pliku)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:75) ~[?:?]
+	at offers_analyzer.JobOfferReader.read(JobOfferReader.java:19) [classes/:?]
+	at offers_analyzer.NewOffer.find(NewOffer.java:28) [classes/:?]
+	at Main.main(Main.java:25) [classes/:?]
+2021-12-05 17:00:07,544 INFO o.d.StudentPlJobOffersParser [main] Start parsing
+2021-12-05 17:00:07,579 INFO o.d.PageWalker [main] Start parsing pages with offers lists
+2021-12-05 17:00:35,943 INFO o.d.PageWalker [main] Start parsing pages with offers
+2021-12-05 17:06:19,244 INFO o.d.StudentPlJobOffersParser [main] Start file writing
+2021-12-05 17:06:19,512 INFO o.d.StudentPlJobOffersParser [main] File written
+2021-12-05 17:06:19,798 INFO o.StatisticsProvider [main] Analyze data started
+2021-12-05 17:06:19,968 INFO o.StatisticsProvider [main] Analyze data end
+2021-12-05 17:06:20,055 ERROR o.JobOfferReader [main] Errow while parsing file
+java.io.FileNotFoundException: Data_04-gru-21.csv (Nie można odnaleźć określonego pliku)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:75) ~[?:?]
+	at offers_analyzer.JobOfferReader.read(JobOfferReader.java:19) [classes/:?]
+	at offers_analyzer.NewOffer.find(NewOffer.java:28) [classes/:?]
+	at Main.main(Main.java:25) [classes/:?]
+2021-12-09 22:02:14,670 INFO o.d.StudentPlJobOffersParser [main] Start parsing
+2021-12-09 22:02:14,747 INFO o.d.PageWalker [main] Start parsing pages with offers lists
+2021-12-09 22:02:41,191 INFO o.d.PageWalker [main] Start parsing pages with offers
+2021-12-09 22:07:48,755 INFO o.d.StudentPlJobOffersParser [main] Start file writing
+2021-12-09 22:07:49,017 INFO o.d.StudentPlJobOffersParser [main] File written
+2021-12-09 22:07:49,246 INFO o.StatisticsProvider [main] Analyze data started
+2021-12-09 22:07:49,409 INFO o.StatisticsProvider [main] Analyze data end
+2021-12-09 22:07:49,519 ERROR o.JobOfferReader [main] Errow while parsing file
+java.io.FileNotFoundException: Data_08-gru-21.csv (Nie można odnaleźć określonego pliku)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:75) ~[?:?]
+	at offers_analyzer.JobOfferReader.read(JobOfferReader.java:19) [classes/:?]
+	at offers_analyzer.NewOffer.find(NewOffer.java:28) [classes/:?]
+	at Main.main(Main.java:25) [classes/:?]
+2021-12-11 12:33:14,326 INFO o.d.StudentPlJobOffersParser [main] Start parsing
+2021-12-11 12:33:14,351 INFO o.d.PageWalker [main] Start parsing pages with offers lists
+2021-12-11 12:33:44,437 INFO o.d.PageWalker [main] Start parsing pages with offers
+2021-12-11 12:38:53,148 INFO o.d.StudentPlJobOffersParser [main] Start file writing
+2021-12-11 12:38:53,893 INFO o.d.StudentPlJobOffersParser [main] File written
+2021-12-11 12:38:54,392 INFO o.StatisticsProvider [main] Analyze data started
+2021-12-11 12:38:54,697 INFO o.StatisticsProvider [main] Analyze data end
+2021-12-11 12:38:54,721 ERROR o.JobOfferReader [main] Errow while parsing file
+java.io.FileNotFoundException: Data_10-gru-21.csv (Nie można odnaleźć określonego pliku)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.base/java.io.FileReader.<init>(FileReader.java:75) ~[?:?]
+	at offers_analyzer.JobOfferReader.read(JobOfferReader.java:19) [classes/:?]
+	at offers_analyzer.NewOffer.find(NewOffer.java:28) [classes/:?]
+	at Main.main(Main.java:25) [classes/:?]

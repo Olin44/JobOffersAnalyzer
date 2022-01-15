@@ -11,8 +11,12 @@ public class FileWithNameCreator {
     public static final String FILE_EXTENSION = ".csv";
 
     public File create(String fileName) {
+        return create(fileName, LocalDateTime.now());
+    }
+
+    public File create(String fileName, LocalDateTime localDateTime) {
         return new File(fileName
-                + LocalDateTime.now().format(CREATION_DATE_FILE_FORMATTER)
+                + localDateTime.format(CREATION_DATE_FILE_FORMATTER)
                 + FILE_EXTENSION);
     }
 }

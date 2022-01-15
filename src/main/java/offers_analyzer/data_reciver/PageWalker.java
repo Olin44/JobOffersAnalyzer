@@ -22,7 +22,6 @@ public class PageWalker {
         List<String> pages = getPages(firstPage);
         logger.info("Start parsing pages with offers");
         return pages.stream()
-                .filter(url -> Objects.equals(firstPageUrl, url))
                 .map(url -> new JobOffer(url, getDocument(url)))
                 .toList();
     }
@@ -63,7 +62,7 @@ public class PageWalker {
         return document.getElementsByClass("n-BlockListing_headerTitle").stream()
                 .map(element -> element.attr("href"))
                 .map(href -> "https://students.pl" +  href)
-                .filter(url -> Objects.equals("https://students.pl", url))
+                .filter(url -> !Objects.equals("https://students.pl", url))
                 .collect(Collectors.toList());
     }
 }

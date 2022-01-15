@@ -3,6 +3,8 @@ package offers_analyzer.data_reciver;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
+import java.util.Objects;
+
 public class JobOffer {
 
     private String location;
@@ -79,5 +81,18 @@ public class JobOffer {
                 ", jobDescription='" + jobDescription + '\'' +
                 ", jobCategory='" + jobCategory + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        JobOffer jobOffer = (JobOffer) o;
+        return Objects.equals(location, jobOffer.location) && Objects.equals(url, jobOffer.url) && Objects.equals(companyName, jobOffer.companyName) && Objects.equals(salary, jobOffer.salary) && Objects.equals(contractType, jobOffer.contractType) && Objects.equals(jobTitle, jobOffer.jobTitle) && Objects.equals(jobDescription, jobOffer.jobDescription) && Objects.equals(jobCategory, jobOffer.jobCategory);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(location, url, companyName, salary, contractType, jobTitle, jobDescription, jobCategory);
     }
 }
